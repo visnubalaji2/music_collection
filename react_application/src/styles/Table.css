@@ -1,0 +1,246 @@
+.TableContainer {
+    background: #ffffff;
+    margin-top: 30px;
+    margin-left:20px;
+    margin-right:20px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    border-radius: 10px;
+ 
+
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+   padding: 20px;
+    text-align: left;
+    border-bottom: 1px solid #ccc; 
+  }
+  td{
+    span{
+        display: block; /* Moves span to a new line */
+    margin-top: 5px; /* Optional: Adds spacing between the text and span */
+    font-size: 14px; /* Optional: Adjust font size */
+    color: gray; /
+    }
+  }
+  th {
+ 
+    font-weight: bold;
+  }
+  
+  table td:not(:last-child),
+  table th:not(:last-child) {
+    border-right: none;
+  }
+  }
+
+
+.TableFiltersAndSearchContainer{
+    display: flex;
+}
+
+
+.searchContainer {
+    margin-left: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    align-items: center;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: white;
+    position: relative; 
+}
+
+.searchInput {
+    border: none;
+    outline: none;
+    flex: 1;  
+    padding: 5px;
+}
+
+.searchIcon {
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    right: 10px; 
+    cursor: pointer; 
+}
+
+
+  .filterBox {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between; 
+    background: #9e9ba7; 
+    padding: 10px 8px 12px; 
+    margin-left: 15px;
+    border-radius: 5px; 
+    cursor: pointer; 
+    width: fit-content; 
+    border: 1px solid #ccc; 
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.filterBox p {
+    display: flex;
+    align-items: center;
+    margin: 0; 
+    gap: 8px; 
+}
+
+.caretIcon {
+    width: 16px; 
+    height: 16px;
+    transition: transform 0.3s ease; 
+}
+
+
+.filterBox.active .caretIcon {
+    transform: rotate(180deg);
+}
+
+
+.filterBox {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #f0f0f0;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: fit-content;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    font-weight: 500;
+    position: relative;
+}
+
+.filterBox p {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    gap: 8px;
+}
+
+.caretIcon {
+    width: 16px;
+    height: 16px;
+    transition: transform 0.3s ease;
+}
+
+.caretIcon.active {
+    transform: rotate(180deg);
+}
+
+.filterDropDown {
+    position: absolute;
+    top: 100%;
+    left:0;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 190px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 10;
+    margin-top:10px;
+    padding-bottom: 10px;
+}
+
+.filterDropDown ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.filterDropDown li {
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+.filterDropDown li:hover {
+    background: #f5f5f5;
+}
+
+.collctionDetailsContainer{
+    background: #ffffff;
+    margin-top: 30px;
+    margin-left:20px;
+    margin-right:20px;
+    padding-bottom: 30px;
+    padding-top: 20px;
+    border-radius: 10px;
+    ul {
+        display: flex;        /* Arrange items in a row */
+        gap: 20px;           /* Add spacing between list items */
+        list-style: none;    /* Remove default bullet points */
+        padding: 0;
+        margin: 0;
+    }
+    
+    li {
+        background: #f9f9f9;  /* Light background for each item */
+        padding: 15px;
+        border-radius: 8px;
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+        min-width: 150px;   /* Ensure a minimum width */
+        text-align: center; /* Center content */
+    }
+    
+    li div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    p {
+        margin: 5px 0;
+    }
+    
+}
+
+
+.collectionDetailsContainer {
+    background: #ffffff;
+    margin: 30px 20px;
+
+    border-radius: 10px;
+  
+    display: flex;
+    flex-direction: column;
+
+}
+
+.collectionDetailsContainer ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+    width: 100%; 
+}
+
+.collectionDetailsContainer li {
+ 
+    padding-left: 30px;
+    
+    flex: 1; 
+    text-align: left;
+}
+
+.collectionDetailsContainer li div {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+.collectionDetailsContainer p {
+    margin: 5px 0;
+}
+
+

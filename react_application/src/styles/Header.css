@@ -1,0 +1,14 @@
+.headerContainer{
+    height: 5.5rem;
+    background:#ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+
+}
+
+.headerTabContainer{
+        margin-left: 20px;
+        font-family: "Gill Sans Extrabold", sans-serif;  
+}
+
