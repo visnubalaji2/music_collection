@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Commissioner:wght@300;400;500;600;700&display=swap');
 .headerContainer{
     height: 5.5rem;
     background:#ffffff;
@@ -12,3 +13,30 @@
         font-family: "Gill Sans Extrabold", sans-serif;  
 }
 
+
+
+.breadcrumbContainer {
+    margin-left: 25px;
+   .title{
+    color: #677A90;
+    cursor: pointer;
+   }
+    display: flex;
+    align-items: center;  /* Aligns items vertically */
+    gap: 8px;  /* Adds spacing between elements */
+  }
+  
+  .caretIconRight {
+    width: 12px;  /* Adjust size as needed */
+    height: 30px;
+    color: #677A90;
+    transform: rotate(270deg)
+  }
+
+#pageTitle{
+
+font-family: 'Commissioner', sans-serif;
+font-weight: 500;
+font-size: 30px;
+color:#29313A
+}

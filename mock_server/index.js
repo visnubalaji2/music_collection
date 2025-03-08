@@ -13,7 +13,6 @@ app.get('/collections',(req,res)=>{
         let filteredCollections=collections.filter((i)=>{
             return i.name.toLocaleLowerCase().includes(searchQuery)
         })
-        console.log(filteredCollections)
         if(searchQuery==""){
             res.send(collections)
         }else{

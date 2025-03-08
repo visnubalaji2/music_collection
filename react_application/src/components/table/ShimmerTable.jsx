@@ -1,9 +1,9 @@
 import React from "react";
 import  "../../styles/schimmer.css"
 
-const SchimmerTable = ({ rows = 2, columns = 4 }) => {
+const ShimmerTable = ({ rows = 2, columns = 4 }) => {
   return (
-    <div className="TableContainer">
+    <div className="ShimmerTableContainer">
       <table>
         <thead>
           <tr>
@@ -31,4 +31,4 @@ const SchimmerTable = ({ rows = 2, columns = 4 }) => {
   );
 };
 
-export default SchimmerTable;
+export default ShimmerTable;

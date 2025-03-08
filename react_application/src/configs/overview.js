@@ -73,7 +73,8 @@ const tableConfigs = {
         validation_disabled: true,
         sort_by: true,
         filter:false,
-        link:true
+        link:true,
+        iconSrc:"ViewMoreIcon.svg"
     }
   ]};
 export default tableConfigs;

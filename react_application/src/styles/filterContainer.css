@@ -1,0 +1,67 @@
+.filterBox {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #f0f0f0;
+    padding: 8px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+    width: fit-content;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    font-weight: 400;
+    position: relative;
+    color:#29313A
+}
+.filterBox:hover{
+    background:rgb(199, 196, 196)
+}
+
+.filterBox p {
+   
+    display: flex;
+    align-items: center;
+    margin: 0;
+    gap: 8px;
+}
+
+.caretIcon {
+    width: 10px;
+    height: 15px;
+    transition: transform 0.3s ease;
+}
+
+.caretIcon.active {
+    transform: rotate(180deg);
+}
+
+.filterDropDown {
+    position: absolute;
+    top: 100%;
+    left:0;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 190px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 10;
+    margin-top:10px;
+    padding-bottom: 10px;
+}
+
+.filterDropDown ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.filterDropDown li {
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+.filterDropDown li:hover {
+    background: #f5f5f5;
+}
+

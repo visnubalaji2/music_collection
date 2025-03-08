@@ -1,43 +1,73 @@
 [
   {
-    "id":  "12345",
+    "id":  "1",
     "name": "EPIC: The Troy Saga (Official Concept Album)",
     "artist": "Jorge Rivera-Herrans",
     "type":  "EP",
     "songCount": 5,
-    "durationInSeconds":  900,
-    "sizeInBytes": 48488, 
+    "durationInSeconds":  1478,
+    "sizeInBytes": 240032, 
     "releasedOn":  "2024-09-03T14:35:00Z"
    
   },
   {
-    "id":  "1234536",
-    "name": "Testing Purpose",
-    "artist": "Visnu",
-    "type":  "Album",
-    "songCount": 5,
-    "durationInSeconds":  900,
-    "sizeInBytes": 48488, 
-    "releasedOn":  "2025-09-03T14:35:00Z"
+    "id":  "2",
+    "name": "EPIC: The Ocean Saga (Official Concept Album)",
+    "artist": "Jorge Rivera-Herrans",
+    "type":  "EP",
+    "songCount": 4,
+    "durationInSeconds":  1229,
+    "sizeInBytes": 193940, 
+    "releasedOn":  "2023-09-04T18:35:00Z"
   },
   {
-    "id":  "1234536",
-    "name": "Testing Purpose",
-    "artist": "Visnu",
-    "type":  "Album",
+    "id":  "3",
+    "name": "EPIC: The Ithica Saga (Official Concept Album)",
+    "artist": "Jorge Rivera-Herrans",
+    "type":  "EP",
     "songCount": 5,
-    "durationInSeconds":  900,
-    "sizeInBytes": 48488, 
-    "releasedOn":  "2025-09-03T14:35:00Z"
+    "durationInSeconds":  1541,
+    "sizeInBytes": 245533, 
+    "releasedOn":  "2022-07-03T07:35:00Z"
   },
   {
-    "id":  "1234536",
-    "name": "Testing Purpose",
-    "artist": "Visnu",
+    "id":  "4",
+    "name": "The Source",
+    "artist": "Ayreon",
     "type":  "Album",
-    "songCount": 5,
-    "durationInSeconds":  900,
-    "sizeInBytes": 48488, 
-    "releasedOn":  "2025-09-03T14:35:00Z"
+    "songCount": 2,
+    "durationInSeconds":  300,
+    "sizeInBytes": 24522, 
+    "releasedOn":  "2017-02-14T10:22:00Z"
+  },
+  {
+    "id":  "5",
+    "name": "Nightfall in Middle-Earth",
+    "artist": "Blind Guardian",
+    "type":  "Album",
+    "songCount": 7,
+    "durationInSeconds":  1710,
+    "sizeInBytes": 169920, 
+    "releasedOn":  "2023-07-14T09:45:00Z"
+  },
+  {
+    "id":  "6",
+    "name": "Secret of the Runes",
+    "artist": "Therion",
+    "type":  "Single",
+    "songCount": 1,
+    "durationInSeconds":  293,
+    "sizeInBytes": 4680, 
+    "releasedOn":  "2023-02-11T04:35:00Z"
+  },
+  {
+    "id":  "7",
+    "name": "Good Apollo, I'm Burning Star IV",
+    "artist": "Coheed and Cambria",
+    "type":  "Single",
+    "songCount": 1,
+    "durationInSeconds":  374,
+    "sizeInBytes": 5980, 
+    "releasedOn":  "2023-06-19T01:25:00Z"
   }
 ]

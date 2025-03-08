@@ -7,7 +7,7 @@ import Search from '../components/Search.jsx'
 import Filter from '../components/Filter.jsx'
 import "../styles/Table.css"
 import {useState} from 'react'
-import SchimmerTable from '../components/table/SchimmerTable.jsx'
+import ShimmerTable from '../components/table/ShimmerTable.jsx'
 
 const Overview = () => { 
 
@@ -33,7 +33,7 @@ const Overview = () => {
               <Search searchData={fetchDatafromAPI}/>
               <Filter filterConfigs={tableConfigs.tableView} fetchData={fetchDatafromAPI} />
           </div>
-        {dataItems.loading==true &&  <SchimmerTable  />}
+       {dataItems.loading==true &&  <ShimmerTable  />}
        {dataItems.loading==false  && <Table tableConfigs={tableConfigs} tableData={dataItems.data} loading={data.loading} />} 
     </div>
     </>

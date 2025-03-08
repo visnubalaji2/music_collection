@@ -1,44 +1,325 @@
 [
-    {
-        "id":  "12345",
-        "name": "EPIC: The Troy Saga (Official Concept Album)",
-        "artist": "Jorge Rivera-Herrans",
-        "type":  "EP",
-        "songCount": 5,
-        "songs":[
-            {
-                "title":"The Battle of Troy",
-                "durationInSeconds":307,
-                "sizeInBytes":48485,
-                "performers":[
-                    "Jorge Rivera-Herrans",
-                    "Visnu",
-                    "Balaji"
-                ]
-            },
-            {
-                "title":"The Battle of Troy1",
-                "durationInSeconds":308,
-                "sizeInBytes":48485,
-                "performers":[
-                    "Jorge Rivera-Herrans",
-                    "Visnu",
-                    "Balaji",
-                    "test"
-                ]
-            },{
-                "title":"The Battle of Troy3",
-                "durationInSeconds":307,
-                "sizeInBytes":48485,
-                "performers":[
-                    "Jorge Rivera-Herrans",
-                    "Visnu",
-                    "Balaji",
-                    "test2",
-                    "Jorge Rivera-HerransJorge Rivera-Herrans"
-                ]
-            }
-        ],
-        "releasedOn":  "2024-09-03T14:35:00Z"
-    }
+  {
+    "id": "1",
+    "name": "EPIC: The Troy Saga (Official Concept Album)",
+    "artist": "Jorge Rivera-Herrans",
+    "type": "EP",
+    "songCount": 5,
+    "songs": [
+      {
+        "id":1,
+        "title": "The Horse and the infant",
+        "durationInSeconds": 301,
+        "sizeInBytes": 49485,
+        "performers": [
+          "Jorge Rivera-Herrans",
+          "Luke Holt",
+          "Cast of EPIC:The Musical"
+        ]
+      },
+      {
+        "id":2,
+        "title": "Just a Man",
+        "durationInSeconds": 258,
+        "sizeInBytes": 47485,
+        "performers": ["Jorge Rivera-Herrans", "Cast of EPIC:The Musical"]
+      },
+      {
+        "id":3,
+        "title": "Full Speed Ahead",
+        "durationInSeconds": 120,
+        "sizeInBytes": 25678,
+        "performers": [
+          "Jorge Rivera-Herrans",
+          "Armando Julian",
+          "Steven Dookie",
+          "Cast of EPIC:The Musical"
+        ]
+      },
+      {
+        "id":4,
+        "title": "Open Arms",
+        "durationInSeconds": 432,
+        "sizeInBytes": 67899,
+        "performers": ["Jorge Rivera-Herrans", "Steven Dookie"]
+      },
+      {
+        "id":5,
+        "title": "Warrior of the Mind",
+        "durationInSeconds": 367,
+        "sizeInBytes": 49485,
+        "performers": [
+          "Jorge Rivera-Herrans",
+          "Teagan Earley",
+          "Cast of EPIC:The Musical"
+        ]
+      }
+    ],
+    "releasedOn": "2024-09-03T14:35:00Z"
+  },
+  {
+    "id": "2",
+    "name": "EPIC: The Ocean Saga (Official Concept Album)",
+    "artist": "Jorge Rivera-Herrans",
+    "type": "EP",
+    "songCount": 4,
+    "songs": [
+      {
+        "id":1,
+        "title": "Storm",
+        "durationInSeconds": 307,
+        "sizeInBytes": 48485,
+        "performers": [
+          "Odysseus",
+          "Eurylochus",
+          "Perimedes",
+          "Elpenor",
+          "Greek Soldiers"
+        ]
+      },
+      {
+        "id":2,
+        "title": "Luck Runs Out",
+        "durationInSeconds": 308,
+        "sizeInBytes": 48485,
+        "performers": ["Odysseus", "Eurylochus", "Greek Soldiers"]
+      },
+      {
+        "id":3,
+        "title": "Keep Your Friends Close",
+        "durationInSeconds": 307,
+        "sizeInBytes": 48485,
+        "performers": ["Odysseus", "Aeolus", "Winions", "Perimedes", "Elpenor"]
+      },
+      {
+        "id":4,
+        "title": "Ruthlessness",
+        "durationInSeconds": 307,
+        "sizeInBytes": 48485,
+        "performers": ["Poseidon", "Laestrygonians", "Odysseus"]
+      }
+    ],
+    "releasedOn": "2023-09-04T18:35:00Z"
+  },
+  {
+    "id": "3",
+    "name": "EPIC: The Ithica Saga (Official Concept Album)",
+    "artist": "Jorge Rivera-Herrans",
+    "type": "EP",
+    "songCount": 4,
+    "songs": [
+      {
+        "id":1,
+        "title": "The Challenge",
+        "durationInSeconds": 312,
+        "sizeInBytes": 50214,
+        "performers": [
+          "Jorge Rivera-Herrans",
+          "Anna Lea",
+          "Cast of EPIC: The Musical"
+        ]
+      },
+      {
+        "id":2,
+        "title": "Hold Them Down",
+        "durationInSeconds": 289,
+        "sizeInBytes": 47389,
+        "performers": [
+          "Jorge Rivera-Herrans",
+          "Ayron Alexander",
+          "Cast of EPIC: The Musical"
+        ]
+      },
+      {
+        "id":3,
+        "title": "Odysseus",
+        "durationInSeconds": 345,
+        "sizeInBytes": 52872,
+        "performers": [
+          "Jorge Rivera-Herrans",
+          "Jamie Wiltshire",
+          "Dennis Diaz",
+          "Tristan Caldwell",
+          "Miguel Veloso",
+          "Cast of EPIC: The Musical"
+        ]
+      },
+      {
+        "id":4,
+        "title": "I Can't Help but Wonder",
+        "durationInSeconds": 274,
+        "sizeInBytes": 45237,
+        "performers": ["Jorge Rivera-Herrans", "Miguel Veloso", "Teagan Earley"]
+      },
+      {
+        "id":5,
+        "title": "Would You Fall in Love with Me Again",
+        "durationInSeconds": 321,
+        "sizeInBytes": 49821,
+        "performers": ["Jorge Rivera-Herrans", "Anna Lea"]
+      }
+    ],
+    "releasedOn": "2022-07-03T07:35:00Z"
+  },
+  {
+    "id": "4",
+    "name": "The Source",
+    "artist": "Ayreon",
+    "type": "Album",
+    "songCount": 4,
+    "songs": [
+      {
+        "id":1,
+        "title": "The Day That the World Breaks Down",
+        "durationInSeconds": 720,
+        "sizeInBytes": 11520,
+        "performers": [
+          "James LaBrie",
+          "Tommy Karevik",
+          "Tommy Rogers",
+          "Simone Simons",
+          "Nils K. Rue"
+        ]
+      },
+      {
+        "id":2,
+        "title": "Sea of Machines",
+        "durationInSeconds": 300,
+        "sizeInBytes": 48000,
+        "performers": ["Tommy Rogers", "Simone Simons"]
+      },
+      {
+        "id":3,
+        "title": "Everybody Dies",
+        "durationInSeconds": 270,
+        "sizeInBytes": 43200,
+        "performers": [
+          "Russell Allen",
+          "Mike Mills",
+          "Michael Eriksen",
+          "Hansi Kürsch",
+          "Floor Jansen",
+          "Tommy Karevik",
+          "James LaBrie"
+        ]
+      },
+      {
+        "id":4,
+        "title": "Star of Sirrah",
+        "durationInSeconds": 420,
+        "sizeInBytes": 67200,
+        "performers": [
+          "Tommy Karevik",
+          "Hansi Kürsch",
+          "Nils K. Rue",
+          "James LaBrie",
+          "Simone Simons"
+        ]
+      }
+    ],
+
+    "releasedOn": "2017-02-14T10:22:00Z"
+  },
+  {
+    "id": "5",
+    "name": "Nightfall in Middle-Earth",
+    "artist": "Blind Guardian",
+    "type": "Album",
+    "songCount": 7,
+    "songs":  [
+        {
+            "id":1,
+          "title": "War of Wrath",
+          "durationInSeconds": 145,
+          "sizeInBytes": 23200,
+          "performers": ["Hansi Kürsch", "André Olbrich", "Marcus Siepen", "Thomas Stauch"]
+        },
+        {
+            "id":2,
+          "title": "Into the Storm",
+          "durationInSeconds": 270,
+          "sizeInBytes": 43200,
+          "performers": ["Hansi Kürsch", "André Olbrich", "Marcus Siepen", "Thomas Stauch"]
+        },
+        {
+            "id":3,
+          "title": "Lammoth",
+          "durationInSeconds": 30,
+          "sizeInBytes": 48100,
+          "performers": ["Hansi Kürsch"]
+        },
+        {
+            "id":4,
+          "title": "Nightfall",
+          "durationInSeconds": 336,
+          "sizeInBytes": 53760,
+          "performers": ["Hansi Kürsch", "André Olbrich", "Marcus Siepen", "Thomas Stauch"]
+        },
+        {
+            "id":5,
+          "title": "The Minstrel",
+          "durationInSeconds": 32,
+          "sizeInBytes": 51200,
+          "performers": ["Hansi Kürsch"]
+        },
+        {
+            "id":6,
+          "title": "The Curse of Feanor",
+          "durationInSeconds": 360,
+          "sizeInBytes": 57600,
+          "performers": ["Hansi Kürsch", "André Olbrich", "Marcus Siepen", "Thomas Stauch"]
+        },
+        {
+            "id":7,
+          "title": "Captured",
+          "durationInSeconds": 50,
+          "sizeInBytes": 80800,
+          "performers": ["Hansi Kürsch"]
+        }
+      ]
+    ,
+
+    "releasedOn": "2023-07-14T09:45:00Z"
+  },
+  {
+    "id": "6",
+    "name": "Secret of the Runes",
+    "artist": "Therion",
+    "type": "Single",
+    "songCount": 1,
+    "songs":  [
+        {
+            "id":1,
+          "title": "Ginnungagap",
+          "durationInSeconds": 293,
+          "sizeInBytes": 4680,
+          "performers": ["Christofer Johnsson", "Thomas Karlsson", "Petter Karlsson"]
+        }
+      ]
+    
+    ,
+
+    "releasedOn": "2023-02-11T04:35:00Z"
+  },
+  {
+    "id": "7",
+    "name": "Good Apollo, I'm Burning Star IV",
+    "artist": "Coheed and Cambria",
+    "type": "Single",
+    "songCount": 1,
+    "songs": [
+        {
+            "id":1,
+          "title": "Welcome Home",
+          "durationInSeconds": 374,
+          "sizeInBytes": 5980,
+          "performers": ["Claudio Sanchez", "Travis Stever", "Michael Todd"]
+        }
+      ]
+    
+    
+    ,
+
+    "releasedOn": "2023-06-19T01:25:00Z"
+  }
 ]

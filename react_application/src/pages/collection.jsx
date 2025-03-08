@@ -6,6 +6,7 @@ import useFetch from '../customHooks/fetchData'
 
 import { useLocation } from 'react-router-dom';
 import "../styles/Table.css"
+import "../styles/collectionDetails.css"
 
 import TabContainer from '../components/TabContainer.jsx'
 import {useState} from 'react'

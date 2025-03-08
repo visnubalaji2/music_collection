@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import '../styles/Table.css'
+import '../styles/searchContainer.css'
 import searchIcon from '../assets/icons8-search.svg';
 
 const Search = (props) => {

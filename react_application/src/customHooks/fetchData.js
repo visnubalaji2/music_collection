@@ -21,7 +21,6 @@ const useFetch = (url, options = {}) => {
 
     fetchData();
   }, [url, JSON.stringify(options)]);
-console.log(loading,"hereatleast")
   return { data, loading, error };
 };
 

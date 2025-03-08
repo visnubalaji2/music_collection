@@ -7,8 +7,6 @@ const TabContainer = (props) => {
 
 
     const formatTotalValue=(operation,data)=>{
-        console.log(operation,"operation")
-        console.log(data,"data")
         const total = data[operation['key']].reduce((sum, i) => sum + i[operation['value']], 0);
         if(operation.format=='bytes'){
             return formatValue(total,'bytes')
@@ -21,7 +19,7 @@ const TabContainer = (props) => {
             {tabConfigs.map((tab)=>{
                 if (tab.datakey && tab.format=='date-time'){
                     return (
-                        <li>
+                        <li key={tab['label']}>
                             <div>
                             <p>{tab['label']}</p>
                             <p>{formatValue(tabData[tab['datakey']],'date')}</p>
@@ -30,7 +28,7 @@ const TabContainer = (props) => {
                 }
                 else if(tab.datakey ==null){
                     return (
-                    <li>
+                    <li key={tab['label']}>
                         <div>
                         <p>{tab['label']}</p>
                          <p>{formatTotalValue(tab.performOpertion,tabData)}</p>
@@ -38,7 +36,7 @@ const TabContainer = (props) => {
                     </li>)
                 }else{
                     return (
-                    <li>
+                    <li key={tab['label']}>
                         <div>
                         <p>{tab['label']}</p>
                          <p>   {tabData[tab['datakey']]}</p>

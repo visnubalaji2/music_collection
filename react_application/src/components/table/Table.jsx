@@ -5,7 +5,7 @@ const Table = (props) => {
 
     const {tableConfigs,tableData}=props
 
-  console.log(tableData,"Tablehere")
+
   return (
 
      <>
